@@ -19,7 +19,7 @@ and cpu type.
 
 1. Edit the Dockerfile and change everything inside the "Versioning" section as needed for your environment
 
-2. Build the image (note, you will need a system that has internet access to download debian packages and OpenOnload)
+2. Build the image
 
 ```
 docker build .
