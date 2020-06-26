@@ -14,7 +14,7 @@ cd /tmp/onload_src/scripts && \
 #Make the archive name
 KERNEL_VERSION=`uname -r`
 ONLOAD_VERSION=`grep "version: onload" /tmp/onload_src/README | awk '{print $2}'`
-ARCHIVE_NAME=${ONLOAD_VERSION}-kmod-${KERNEL_VERSION}
+ARCHIVE_NAME=openonload-${ONLOAD_VERSION}-kmod-${KERNEL_VERSION}
 
 #Tar and compress
 cd /tmp/onload_src && \
